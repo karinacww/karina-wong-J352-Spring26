@@ -1,14 +1,48 @@
 /*
 MY COLOR PALETTE
-Color 1 - #353535
-Color 2 - #FFFFFF
-Color 3 - #D2D7DF
-Color 4 - #BDBBB0
-Color 5 - #8A897C
+Color 1 - #650d1b
+Color 2 - #ffe066
+Color 3 - #f4fffd
+Color 4 - #011936
+Color 5 - #465362
 */
 
+.body {
+    background-color: #f4fffd;
+    text-align: center
+}
 
-  .button{
-        background-color: 8a897c;
-        color: bdbbb0;
-    }
+
+.button {
+    background-color: #650d1b;
+    color: #ffe066;
+    align-content: center;
+    text-transform:uppercase;
+    font-size: 30px;
+    border:dashed;
+    width: 250px;
+    padding:10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+    button:hover{
+        background-color: #465362;
+}
+
+.h1{
+    font-family: "Playfair Display", serif; 
+    text-align: center;
+    color: #650d1b;
+    font-size: 60px;
+    height:40px;
+
+}
+
+.h2{
+    color:#011936;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    height:80px
+}
