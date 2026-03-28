@@ -3,17 +3,30 @@
  * Gray: #383838
  * Beige: #e7e7d8*/
     
+.section-one{background-color:#383838;}
 
 h1 {font-family: "Ballet", cursive;
-font-size: 70px;
-text-align: center; 
+font-size: 140px;
+text-align: center;
+color:#e7e7d8;
+padding-top: 100px;
 }
 
 h2 {font-family: "Bebas Neue", sans-serif;
-font-size: 70px;
-text-align: center}
+font-size: 170px;
+text-align: center;
+color:#cf4a4a;}
 
 button{font-family: "Bebas Neue", sans-serif}
 
 #headshot{width: 100%;
 }
+
+
+.section-two{background-color: #e7e7d8}
+
+h3{font-family: "Bebas Neue", sans-serif;
+font-size: 170px;
+color:#cf4a4a;
+padding-top: 30px}
+
