@@ -52,6 +52,12 @@ button {
     margin-top: 100px;
 }
 
+
+.thinner-hr {border: 1px solid #cf4a4a;
+    width: 100%;opacity: 1;
+margin-left: 30px; margin-top: -40px
+}
+
 #section-two {
     background-color: #e7e7d8;
 }
@@ -72,6 +78,21 @@ margin-bottom:60px}
 #section-three {
     background-color: #383838;
 }
+
+#h4-beige {
+    color:#e7e7d8
+}
+
+#h5-beige {
+    color:#e7e7d8
+}
+
+#h6-beige {
+    color:#e7e7d8
+}
+
+
+
 
 #section-four {
     background-color: #e7e7d8;
