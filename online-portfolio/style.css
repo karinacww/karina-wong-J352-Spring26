@@ -8,13 +8,24 @@
     padding-bottom: 80px;
 }
 
-.nav{
+#navigation a {
     text-align: center;
     color: #e7e7d8;
+    text-decoration: none;
+    font-style: none;
+    margin-top: 20px;
 }
 
-hr{border: 2px solid #cf4a4a;
-    width: 100%;opacity: 1;}
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 2px solid #cf4a4a;
+    width: 100%;
+    opacity: 1;
+    margin-top:-40px;
+}
 
 .col-sm-7 {
     text-align: center;
@@ -45,6 +56,7 @@ button {
     color: #383838;
     border-radius: 20px;
     width: 300px;
+    font-weight: 100;
 }
 
 #headshot {
@@ -52,14 +64,16 @@ button {
     margin-top: 100px;
 }
 
-
-.thinner-hr {border: 1px solid #cf4a4a;
-    width: 100%;opacity: 1;
-margin-left: 30px; margin-top: -40px
+.thinner-hr {
+    border: 1px solid #cf4a4a;
+    width: 100%;
+    opacity: 1;
+    padding-left: 70px;
+    margin-top: -50px;
 }
 
 #section-two {
-    background-color: #e7e7d8;
+    background-color: #e7e7d8; margin-bottom: 30px;
 }
 
 h3 {
@@ -67,37 +81,65 @@ h3 {
     font-size: 120px;
     color: #cf4a4a;
     padding: 30px;
-    margin-bottom: -20px
+    margin-bottom: -20px;
 }
 
-.job-title{padding-left: 60px;
-margin-bottom:60px}
+h4{font-style: normal;font-weight: 700}
+
+h5{font-style: normal;}
 
 
+h6 {
+    padding-top: 20px;
+}
+
+.col-sm-4 {
+    padding-left: 60px;
+    margin-bottom: 60px;
+    font-style: none;
+}
 
 #section-three {
     background-color: #383838;
 }
 
 #h4-beige {
-    color:#e7e7d8
+    color: #e7e7d8;
+    font-size: 40px;
 }
 
 #h5-beige {
-    color:#e7e7d8
+    color: #e7e7d8;
 }
 
 #h6-beige {
-    color:#e7e7d8
+    color: #e7e7d8;
+    font-style: italic;
+    padding-top: 20px;
 }
 
-
-
+.row-education {
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
 
 #section-four {
     background-color: #e7e7d8;
 }
 
-h4{color:#383838}
-h5{color:#383838}
-h6{color:#383838}
+.row-skills {
+    color: #383838;
+    padding-left: 60px;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+h4 {
+    color: #383838;
+}
+h5 {
+    color: #383838;
+}
+h6 {
+    color: #383838;
+}
