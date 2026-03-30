@@ -2,39 +2,81 @@
  * Red: #cf4a4a
  * Gray: #383838
  * Beige: #e7e7d8*/
-    
-.section-one{background-color:#383838;}
 
-h1 {font-family: "Ballet", cursive;
-font-size: 140px;
-text-align: center;
-color:#e7e7d8;
-padding-top: 100px;
+.section-one {
+    background-color: #383838;
+    padding-bottom: 80px;
 }
 
-h2 {font-family: "Bebas Neue", sans-serif;
-font-size: 170px;
-text-align: center;
-color:#cf4a4a;}
-
-button{font-family: "Bebas Neue", sans-serif}
-
-#headshot{width: 100%;
+.nav{
+    text-align: center;
+    color: #e7e7d8;
 }
 
+hr{border: 2px solid #cf4a4a;
+    width: 100%;opacity: 1;}
 
-.section-two{background-color: #e7e7d8}
+.col-sm-7 {
+    text-align: center;
+}
 
-h3{font-family: "Bebas Neue", sans-serif;
-font-size: 170px;
-color:#cf4a4a;
-padding-top: 30px}
+h1 {
+    font-family: "Ballet", cursive;
+    font-size: 140px;
+    text-align: center;
+    color: #e7e7d8;
+    padding-top: 120px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 170px;
+    text-align: center;
+    color: #cf4a4a;
+    margin-top: -50px;
+}
+
+button {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: #e7e7d8;
+    color: #383838;
+    border-radius: 20px;
+    width: 300px;
+}
+
+#headshot {
+    width: 90%;
+    margin-top: 100px;
+}
+
+#section-two {
+    background-color: #e7e7d8;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 120px;
+    color: #cf4a4a;
+    padding: 30px;
+    margin-bottom: -20px
+}
+
+.job-title{padding-left: 60px;
+margin-bottom:60px}
 
 
-.section-three{background-color:#383838}
 
-h4{font-family: "Bebas Neue", sans-serif;
-font-size: 170px;
-color:#cf4a4a;
-padding-top: 30px}
+#section-three {
+    background-color: #383838;
+}
 
+#section-four {
+    background-color: #e7e7d8;
+}
+
+h4{color:#383838}
+h5{color:#383838}
+h6{color:#383838}
