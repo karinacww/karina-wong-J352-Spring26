@@ -14,7 +14,7 @@
         font-family: "DM Serif Text", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 55px;
+        font-size: 48px;
         padding-left:30px;
         padding-top:30px;
     }
@@ -24,19 +24,33 @@
         font-family: "DM Sans", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        font-size: 25px;
+        font-size: 20px;
         padding-left:30px;
     }
     
     h3 {
-        font-size: 10px;
+        font-size: 15px;
         margin: 10px;
+        font-family: "DM Sans", sans-serif;
     }
+    #credit{color:cadetblue;
+    margin-top: -8px;}
 
     h4 {
         margin: auto;
         font-size: 15px;
-    }}
+    }
+
+    #quoter{font-size: 30px;
+    color:cadetblue;
+    margin-left: 1px;}
+    
+    #job{font-size: 20px;
+    color:cadetblue;
+    margin-top: -15px;
+    margin-left: 1px;}
+
+}
 
 @media (max-width:968px){
     #topper {
@@ -49,7 +63,7 @@
         font-family: "DM Serif Text", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 30px;
+        font-size: 40px;
         padding-left:30px;
         padding-top:30px;
     }
@@ -59,7 +73,7 @@
         font-family: "DM Sans", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        font-size: 18px;
+        font-size: 19px;
         padding-left:30px;
     }
 
@@ -84,7 +98,9 @@
         font-optical-sizing: auto;
         font-style: normal;
         font-size: 14px;
-        padding-left:30px;
-
+        padding-left:30px;}
+    }
+    }
 }
 
+    
