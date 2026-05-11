@@ -10,6 +10,7 @@
         margin: auto;
     }
 
+    #author {margin-bottom:-15px}
    
 
     .headline {
@@ -105,7 +106,7 @@
     }
 
     .caption {
-        font-size: 20px;
+        font-size: 14px;
         color: #4f7f81;
         margin-left: 1px;
         font-family: "DM Sans", serif;
