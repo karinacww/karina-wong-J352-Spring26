@@ -1,13 +1,23 @@
-@media screen{
+@media screen {
     #topper {
         background-image: url(00xp-sixflags-TOP-vjkq-superJumbo.webp);
         background-size: cover;
         height: 100vh;
     }
-    
-    #content{width: 60vw;
-    margin:auto;}
-    
+
+    #content {
+        width: 60vw;
+        margin: auto;
+    }
+
+    .headline {
+        width: 75vw;
+        background-color: RGBA(95, 158, 160, 0.5);
+        padding: 30px;
+    }
+    .fullwidth{
+        padding:0px
+    }
     
     h1 {
         color: white;
@@ -15,8 +25,6 @@
         font-weight: 400;
         font-style: normal;
         font-size: 48px;
-        padding-left:30px;
-        padding-top:30px;
     }
 
     h2 {
@@ -25,82 +33,84 @@
         font-optical-sizing: auto;
         font-style: normal;
         font-size: 20px;
-        padding-left:30px;
     }
-    
+
     h3 {
         font-size: 15px;
         margin: 10px;
         font-family: "DM Sans", sans-serif;
     }
-    #credit{color:cadetblue;
-    margin-top: -8px;}
+    #credit {
+        color: cadetblue;
+        margin-top: -8px;
+    }
 
     h4 {
         margin: auto;
         font-size: 15px;
+        font-family: "DM Sans", sans-serif;
     }
 
-    #quoter{font-size: 30px;
-    color:cadetblue;
-    margin-left: 1px;}
-    
-    #job{font-size: 20px;
-    color:cadetblue;
-    margin-top: -15px;
-    margin-left: 1px;}
+    #quoter {
+        font-size: 30px;
+        color: cadetblue;
+        margin-left: 1px;
+        font-family: "DM Serif Text", serif;
+    }
 
+    #job {
+        font-size: 20px;
+        color: cadetblue;
+        margin-top: -15px;
+        margin-left: 1px;
+    }
 }
 
-@media (max-width:968px){
+@media (max-width: 968px) {
     #topper {
         background-image: url(00xp-sixflags-TOP-vjkq-superJumbo.webp);
         background-size: cover;
         height: 100vh;
     }
+
+    .headline {
+        width: 80vw;
+        background-color: RGBA(95, 158, 160, 0.5);
+        padding: 30px;
+    }
+
     h1 {
-        color: white;
-        font-family: "DM Serif Text", serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 40px;
-        padding-left:30px;
-        padding-top:30px;
     }
 
     h2 {
-        color: white;
-        font-family: "DM Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
         font-size: 19px;
-        padding-left:30px;
     }
 
+    @media (max-width: 576px) {
+        #topper {
+            background-image: url(00xp-sixflags-TOP-vjkq-superJumbo.webp);
+            background-size: cover;
+            height: 90vh;
+        }
 
-@media (max-width:576px){
-    #topper {
-        background-image: url(00xp-sixflags-TOP-vjkq-superJumbo.webp);
-        background-size: cover;
-        height: 90vh;
-    h1 {
-        color: white;
-        font-family: "DM Serif Text", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 33px;
-        padding-left:30px;
-        padding-top:30px;}
+        .headline {
+            width: 100vw;
+            background-color: RGBA(95, 158, 160, 0.5);
+            padding: 30px;
+        }
+
+    #content {
+        width: 80vw;
+        margin: auto;
+    }
         
-    h2 {
-        color: white;
-        font-family: "DM Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        font-size: 14px;
-        padding-left:30px;}
-    }
+        h1 {
+            font-size: 33px;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
     }
 }
-
-    
