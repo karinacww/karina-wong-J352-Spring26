@@ -8,6 +8,7 @@
     #content {
         width: 60vw;
         margin: auto;
+
     }
 
     .headline {
@@ -49,21 +50,48 @@
         margin: auto;
         font-size: 15px;
         font-family: "DM Sans", sans-serif;
+        padding-top:10px;
+        padding-bottom:10px
     }
 
-    #quoter {
-        font-size: 30px;
+    h5 {font-size: 30px;
         color: cadetblue;
+        margin-left: 1px;
+        font-family: "DM Serif Text", serif;}
+    
+    .quote-mark {font-size: 90px;
+        color: #5F9EA0;
+        margin-top:-25px;
+        margin-right: 7px;
+        margin-bottom: -60px;
+        font-family:"DM Serif Text", serif;
+    float:left;}
+    
+    .quote {font-size: 30px;
+        color: #5F9EA0;
+        margin-left: 1px;
+        font-family:"DM Serif Text", serif}
+    
+    .quoter {
+        font-size: 25px;
+        color:#4F7F81;
         margin-left: 1px;
         font-family: "DM Serif Text", serif;
+        margin-top:-5px
     }
 
-    #job {
-        font-size: 20px;
-        color: cadetblue;
-        margin-top: -15px;
+.job {
+        font-size: 17px;
+        color:#4F7F81;
+        margin-top: -10px;
         margin-left: 1px;
     }
+    
+    .subheading {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 35px
+    }    
 }
 
 @media (max-width: 968px) {
