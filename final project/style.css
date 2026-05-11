@@ -8,18 +8,19 @@
     #content {
         width: 60vw;
         margin: auto;
-
     }
+
+   
 
     .headline {
         width: 75vw;
         background-color: RGBA(95, 158, 160, 0.5);
         padding: 30px;
     }
-    .fullwidth{
-        padding:0px
+    .fullwidth {
+        padding: 0px;
     }
-    
+
     h1 {
         color: white;
         font-family: "DM Serif Text", serif;
@@ -50,48 +51,72 @@
         margin: auto;
         font-size: 15px;
         font-family: "DM Sans", sans-serif;
-        padding-top:10px;
-        padding-bottom:10px
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
-    h5 {font-size: 30px;
+    h5 {
+        font-size: 30px;
         color: cadetblue;
         margin-left: 1px;
-        font-family: "DM Serif Text", serif;}
-    
-    .quote-mark {font-size: 90px;
-        color: #5F9EA0;
-        margin-top:-25px;
-        margin-right: 7px;
-        margin-bottom: -60px;
-        font-family:"DM Serif Text", serif;
-    float:left;}
-    
-    .quote {font-size: 30px;
-        color: #5F9EA0;
-        margin-left: 1px;
-        font-family:"DM Serif Text", serif}
-    
-    .quoter {
-        font-size: 25px;
-        color:#4F7F81;
-        margin-left: 1px;
         font-family: "DM Serif Text", serif;
-        margin-top:-5px
     }
 
-.job {
+    .quote-mark {
+        font-size: 90px;
+        color: #4f7f81;
+        margin-top: -25px;
+        margin-right: 7px;
+        margin-bottom: -60px;
+        font-family: "DM Serif Text", serif;
+        float: left;
+    }
+
+    .quote {
+        font-size: 30px;
+        color: #4f7f81;
+        margin-left: 1px;
+        font-family: "DM Serif Text", serif;
+    }
+
+    .quoter {
+        font-size: 25px;
+        color: #4f7f81;
+        margin-left: 1px;
+        font-family: "DM Serif Text", serif;
+        margin-top: -5px;
+    }
+
+    .job {
         font-size: 17px;
-        color:#4F7F81;
+        color: #4f7f81;
         margin-top: -10px;
         margin-left: 1px;
     }
-    
+
     .subheading {
         margin-top: 20px;
         margin-bottom: 0px;
-        font-size: 35px
-    }    
+        font-size: 35px;
+    }
+}
+    .picture {
+        width: 60vw;
+    }
+
+    .caption {
+        font-size: 20px;
+        color: #4f7f81;
+        margin-left: 1px;
+        font-family: "DM Sans", serif;
+}
+
+.graph-title{
+    padding-bottom: 6px;
+    font-size: 25px;
+    color: #4f7f81;
+        margin-left: 1px;
+        font-family: "DM Sans", serif;
 }
 
 @media (max-width: 968px) {
@@ -107,6 +132,11 @@
         padding: 30px;
     }
 
+    #content {
+        width: 70vw;
+        margin: auto;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -114,6 +144,14 @@
     h2 {
         font-size: 19px;
     }
+    
+    .picture {
+        width: 70vw;
+    }
+
+    .caption {
+        font-size: 15px;
+        
 
     @media (max-width: 576px) {
         #topper {
@@ -128,11 +166,11 @@
             padding: 30px;
         }
 
-    #content {
-        width: 80vw;
-        margin: auto;
-    }
-        
+        #content {
+            width: 80vw;
+            margin: auto;
+        }
+
         h1 {
             font-size: 33px;
         }
@@ -140,5 +178,13 @@
         h2 {
             font-size: 14px;
         }
+        .picture {
+        width: 80vw;
+    }
+
+    .caption {
+        font-size: 11px;
+        
+        
     }
 }
